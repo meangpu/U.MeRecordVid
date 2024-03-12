@@ -1,21 +1,16 @@
 {
-  "name": "com.meangpu.tools",
+  "name": "com.meangpu.record.vid",
   "version": "0.0.1",
   "unity": "2021.3",
-  "displayName": "MeTools",
-  "description": "the helpful des \n very use ful",
+  "displayName": "MeRecVid",
+  "description": "to help record video",
   "type": "template",
   "author": {
     "name": "meangpu",
     "url": "https://github.com/meangpu"
   },
   "dependencies": {
-    "com.unity.textmeshpro": "3.0.6"
-  },
-  "samples": [
-    {
-      "displayName": "ColorSet",
-      "path": "Samples~/ColorSet"
-    }
-  ]
+    "com.unity.cinemachine": "2.9.7",
+    "com.unity.recorder": "4.0.2"
+  }
 }

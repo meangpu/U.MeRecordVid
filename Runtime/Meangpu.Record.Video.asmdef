@@ -1,10 +1,10 @@
 {
-    "name": "Meangpu.Editor",
+    "name": "Meangpu.Record.Video",
     "rootNamespace": "",
-    "references": [],
-    "includePlatforms": [
-        "Editor"
+    "references": [
+        "GUID:847b179520b009e4c8d15c296b1cbf35"
     ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": true,
     "overrideReferences": false,
