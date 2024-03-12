@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5992075434786947845}
+  - component: {fileID: 6052991164990114823}
   m_Layer: 0
   m_Name: RecordVideoOnStart
   m_TagString: Untagged
@@ -36,6 +37,18 @@ Transform:
   - {fileID: 4030449187635899957}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6052991164990114823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199777877833479219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a1d15b6d4d77f498b3146968eb2659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &473370997935279390
 GameObject:
   m_ObjectHideFlags: 0
@@ -97,7 +110,7 @@ GameObject:
   - component: {fileID: 717836301546471557}
   - component: {fileID: 1582871826291135332}
   - component: {fileID: 1792863184822855392}
-  - component: {fileID: 6920019972169855830}
+  - component: {fileID: 5197012114689461836}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -170,27 +183,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6920019972169855830
-BoxCollider:
+--- !u!114 &5197012114689461836
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 911747388007295971}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ad6bfc9d144afd44a566870bf8e0b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2522903309856591703
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,7 +815,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9046790963802868852}
   serializedVersion: 2
-  m_LocalRotation: {x: 3e-45, y: -0.5257311, z: 1e-45, w: 0.85065085}
+  m_LocalRotation: {x: -1e-45, y: -0.5257311, z: -1e-45, w: 0.85065085}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
